@@ -1,0 +1,26 @@
+﻿@model BaseMVC.Model.HomeModel
+<table id="tbltSCRUD" class="table table-striped">
+    <thead>
+        <tr>
+            <th style="display:none"></th>
+            <th>Nama</th>
+            <th>Email</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            foreach (var item in Model.ListUser)
+            {
+                <tr class="RowData">
+                    <td style="display:none">@item.ID</td>
+                    <td>@item.Nama</td>
+                    <td>@item.Email</td>
+                    <td><button class="btn btn-warning EditButton" onclick="EditUser('@item.ID', '@item.Nama', '@item.Email')">Edit</button> <button class="btn btn-danger" onclick="DeleteUser(@item.ID)">Delete</button></td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
