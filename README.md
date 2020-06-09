@@ -20,17 +20,17 @@ Cara Create database Entity : https://www.c-sharpcorner.com/UploadFile/4923b7/cr
 
 Requirement Project
 
-1. .Net Framework 4.6.1
+1. Net Framework 4.6.1
 2. SQL Server 12++
 3. Visual Studio 2017++
 
 Kelengkapan Project sudah meliputi :
 
-1.Bootstrap 3.1
-2.JQuery 3.4.1
-3.JQuery Validate
-4.Linq
-5.EntityFramework 6.x
+1. Bootstrap 3.1
+2. JQuery 3.4.1
+3. JQuery Validate
+4. Linq
+5. EntityFramework 6.x
 
 Hal yang tidak termasuk dalam project :
 
