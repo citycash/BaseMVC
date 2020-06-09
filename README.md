@@ -20,9 +20,9 @@ Cara Create database Entity : https://www.c-sharpcorner.com/UploadFile/4923b7/cr
 
 Requirement Project
 
-.Net Framework 4.6.1
-SQL Server 12++
-Visual Studio 2017++
+1. .Net Framework 4.6.1
+2. SQL Server 12++
+3. Visual Studio 2017++
 
 Kelengkapan Project sudah meliputi :
 
